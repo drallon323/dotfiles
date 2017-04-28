@@ -9,7 +9,7 @@ dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 
 # list of files/folders to symlink in homedir
-files="gitconfig gitignore_global rspec bashrc"
+files="gitconfig gitignore_global rspec bashrc vim vimrc"
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
