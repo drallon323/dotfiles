@@ -1,0 +1,25 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+  showbranch = auto
+	ui = true
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[core]
+	excludesfile = /Users/alanaudette/.gitignore_global
+[format]
+  pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
+[pull]
+	rebase = true
+[user]
+	name = Alan Audette
+	email = alan.audette@gmail.com
