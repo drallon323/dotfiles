@@ -17,7 +17,7 @@
 [core]
 	excludesfile = /Users/alanaudette/.gitignore_global
 [format]
-  pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
+	pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
 [pull]
 	rebase = true
 [user]
