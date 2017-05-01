@@ -419,3 +419,7 @@ endfunction
 "
 
 " vim: nowrap sw=2 sts=2 ts=8:
+
+set expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2
+set autoindent
