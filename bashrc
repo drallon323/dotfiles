@@ -3,5 +3,6 @@
 #    source ~/.bashrc
 # fi
 
-eval "$(rbenv init -)"
 alias be="bundle exec"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
