@@ -2,13 +2,23 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+"***** Misc. Settings
+set colorcolumn=100
+set guifont=Monaco:h14
+set number
 set nocompatible      " We're running Vim, not Vi!
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/bin/*,*/vendor/*,*/log/*,*/doc/*
+
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 
 let mapleader = ','
+
+"***** Theme
+set background=light
+colorscheme solarized
 
 "***** Sane window splitting (Ctrl + hjkl)
 nnoremap <C-J> <C-W><C-J>
@@ -32,6 +42,9 @@ autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 " Close Vim if NERDTree is the only open window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+"***** Ctrl P
+nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>
 
 "***** RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
