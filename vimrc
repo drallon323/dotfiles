@@ -8,6 +8,7 @@ set guifont=Monaco:h14
 set number
 set nocompatible      " We're running Vim, not Vi!
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/bin/*,*/vendor/*,*/log/*,*/doc/*
+set nowrap
 
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
