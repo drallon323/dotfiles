@@ -19,6 +19,7 @@ let mapleader = ','
 "***** Theme
 set background=light
 colorscheme solarized
+"iTerm2: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
 
 "***** Sane window splitting (Ctrl + hjkl)
 nnoremap <C-J> <C-W><C-J>
