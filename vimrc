@@ -39,7 +39,7 @@ if &t_Co == 8 && $TERM !~# '^linux\|^Eterm'
 endif
 
 "***** NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 " Ctrl + n to open
 map <C-n> :NERDTreeToggle<CR>
 " Close Vim if NERDTree is the only open window
@@ -59,3 +59,7 @@ let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDTrimTrailingWhitespace = 1
+
+"***** vim-javascript
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
