@@ -63,3 +63,6 @@ let g:NERDTrimTrailingWhitespace = 1
 "***** vim-javascript
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
+
+"***** Automatically remove all trailing whitespace
+autocmd BufWritePre * %s/\s\+$//e
