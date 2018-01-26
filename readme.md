@@ -1,4 +1,4 @@
 # Directions for running
-cd ~/dotfiles
-chmod +x makesymlinks.sh
-./makesymlinks.sh
+`cd ~/dotfiles`
+`chmod +x makesymlinks.sh`
+`./makesymlinks.sh`
