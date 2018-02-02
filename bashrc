@@ -11,6 +11,5 @@ alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-
-
-alias sshdev="ssh alan@107.170.57.74"
+export PATH=$HOME/.npm-packages/lib/node_modules/.bin:$PATH
+export PATH=node_modules/.bin:$PATH
