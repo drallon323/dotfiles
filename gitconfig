@@ -23,3 +23,5 @@
 [user]
 	name = Alan Audette
 	email = alan.audette@gmail.com
+[push]
+	followTags = true
