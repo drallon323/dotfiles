@@ -1,0 +1,6 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.fontFamily": "Hack, monospace"
+}
