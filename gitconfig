@@ -15,13 +15,13 @@
 	changed = green
 	untracked = cyan
 [core]
-	excludesfile = /Users/alanaudette/.gitignore_global
+	excludesfile = /Users/mikecole/.gitignore_global
 [format]
 	pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
 [pull]
 	rebase = true
 [user]
-	name = Alan Audette
-	email = alan.audette@gmail.com
+	name = Mike Cole
+	email = colemc3@gmail.com
 [push]
 	followTags = true
